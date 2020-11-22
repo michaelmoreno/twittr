@@ -1,0 +1,55 @@
+section {
+  width: 33%;
+  padding-right: 50px;
+  height: 100vh;
+  border-right: 1px solid #ccc;
+}
+section nav {
+  float: right;
+}
+section nav img {
+  width: 40px;
+}
+section nav ul :hover {
+  background-color: lightblue;
+  color: #1da1f2;
+}
+section nav ul li {
+  align-items: center;
+  transition: background 0.5s ease-in-out;
+  list-style: none;
+  margin: 13px;
+  height: 50px;
+  border-radius: 50px;
+}
+section nav ul li :hover {
+  color: #1da1f2;
+}
+section nav ul li a {
+  font-weight: bold;
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+}
+section nav button {
+  background-color: #1da1f2;
+  border: none;
+  border-radius: 25px;
+  width: 255px;
+  height: 55px;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  display: flex;
+}
+
+/*# sourceMappingURL=app.css.map */
